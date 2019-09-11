@@ -97,24 +97,7 @@
 
 ## 整体运转（类间协作）
 
-``` sequence
-title: 作业2的整体运行情况
-participant 指挥者Main
-participant 排序器Sort
-participant 葫芦娃CalabashBaby
-
-指挥者Main-->>指挥者Main: 随机生成一个队列
-指挥者Main->葫芦娃CalabashBaby: 我对你们七个按照这个队列排个队
-指挥者Main->排序器Sort: 请你对葫芦娃七人队进行冒泡排序
-排序器Sort-->葫芦娃CalabashBaby: 我对你们进行冒泡排序
-指挥者Main->葫芦娃CalabashBaby: 依次报出自己的排行
-
-指挥者Main-->>指挥者Main: 随机生成一个队列
-指挥者Main->葫芦娃CalabashBaby: 我对你们七个按照这个队列排个队
-指挥者Main->排序器Sort: 请你对葫芦娃七人队进行二分法排序
-排序器Sort-->葫芦娃CalabashBaby: 我对你们进行二分法排序
-指挥者Main->葫芦娃CalabashBaby: 依次报出自己的颜色
-```
+![1568198718523](C:\Users\1091378351\AppData\Roaming\Typora\typora-user-images\1568198718523.png)
 
 
 ## 总结
